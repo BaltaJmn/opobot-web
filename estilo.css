@@ -63,3 +63,7 @@ h2 { font-size: 1.3rem; margin: 2.2rem 0 .6rem; }
 .planes thead th { font-family: var(--serif); font-size: 1.05rem; }
 .planes tbody th { font-weight: 500; color: var(--suave); }
 .planes td:last-child, .planes thead th:last-child { color: var(--sello); font-weight: 600; }
+.meta .abierta { color: #2f7d4f; font-weight: 600; }
+@media (prefers-color-scheme: dark) { .meta .abierta { color: #6fcf97; } }
+.afiliado { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1rem; margin: 1.4rem 0; padding: .9rem 1rem; border: 1px solid var(--linea); border-radius: .4rem; }
+.afiliado p { margin: 0; flex: 1 1 18rem; }
