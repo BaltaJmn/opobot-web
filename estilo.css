@@ -57,3 +57,8 @@ h2 { font-size: 1.3rem; margin: 2.2rem 0 .6rem; }
 .pie { margin-top: 3rem; padding: 1.2rem 0 2rem; border-top: 1px solid var(--linea); color: var(--suave); font-size: .9rem; }
 .enlaces-pie { display: flex; flex-wrap: wrap; gap: .4rem 1.2rem; }
 @media (max-width: 32rem) { .ficha { grid-template-columns: 1fr; gap: .1rem; } .ficha dd { margin-bottom: .5rem; } }
+.planes { width: 100%; border-collapse: collapse; margin: 1.2rem 0; font-variant-numeric: tabular-nums; }
+.planes th, .planes td { text-align: left; padding: .55rem .5rem; border-bottom: 1px solid var(--linea); vertical-align: top; }
+.planes thead th { font-family: var(--serif); font-size: 1.05rem; }
+.planes tbody th { font-weight: 500; color: var(--suave); }
+.planes td:last-child, .planes thead th:last-child { color: var(--sello); font-weight: 600; }
